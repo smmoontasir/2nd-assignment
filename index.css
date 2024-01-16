@@ -19,6 +19,10 @@ body{
     color: rgba(19, 19, 24, 0.70);
     font-size: 0.18em;
 }
+.text-styles-4{
+    color: #131318;
+    font-size: 0.38em;
+}
 /*head section*/
 head{
     margin: 0px;
@@ -130,6 +134,12 @@ span{
     border: none;
     
 }
+#se{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* tour section */
 .tour{
     display: flex;
     align-items: center;
@@ -147,6 +157,99 @@ span{
 .tour-text{
     width: 45%;
 }
+/* destination section */
+.destination-text{
+    text-align: center;
+}
+.destination-text > .text-style-3{
+    padding-bottom: 48px;
+}
+.destination-pic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.des-row-1{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 24px;
+}
+.des-row-2{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 24px;
+}
+.des-row-3{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 24px;
+}
+.aww{
+    max-width: 100%;
+
+}
+.aww-text{
+    color: white;
+    font-size: 0.4em;
+    position: absolute;
+    align-self: ;
+}
+/* why choose us section */
+.choose-main-1 {
+    text-align: center;
+}
+.choose-main-2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin: 0%;
+    gap: 24px;
+} 
+.choose-b-1{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 32px;
+    margin: 0px;
+    width: 100%;
+}
+.choose-b-2{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 32px;
+    margin: 0px;
+    width: 100%;
+}
+.choose-main-3{
+    width: 50%;
+    margin: 0%;
+    gap: 24px;
+    align-self: center;
+}
+.choose-c-1{
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding: 32px;
+    margin: 0px;
+    width: 100%;
+}
+.choose-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 48px;
+    width: 100%;
+
+}
+
 
 
 
@@ -185,4 +288,52 @@ span{
     .tour-text{
         width: 100%;
     }
+    .destination-pic{
+        width: 100%;
+    }
+    .des-row-1{
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+    .des-row-2{
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        margin: 0px;
+    }
+    .des-row-3{
+        flex-wrap: wrap;
+        flex-shrink: 0;
+        justify-content: center;
+        width: 100%;
+    
+    }
+    .des-2-col-1{
+        
+        
+    }
+    .aww{
+        max-width: 100%;
+        
+    }
+    .choose-us{
+        flex-wrap: wrap;
+        
+    }
+    .choose-main-2{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .choose-main-3{
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 0px;
+    }
+    
+   
+
+
+
+
 }
