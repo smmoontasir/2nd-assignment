@@ -9,15 +9,15 @@ body{
  }
  .text-style-1{
     color: #131318;
-    font-size: 0.62em;
+    font-size: 0.4em;
 }
  .text-style-2{
     color: #131318;
-    font-size: 0.56em;
+    font-size: 0.3em;
 }
  .text-style-3{
     color: rgba(19, 19, 24, 0.70);
-    font-size: 0.25em;
+    font-size: 0.18em;
 }
 /*head section*/
 head{
@@ -109,6 +109,9 @@ span{
     font-size: 8.96px;
     width: 100px;
     height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     flex-shrink: 0;
     text-align: start;
     border-radius: 3px;
@@ -127,6 +130,23 @@ span{
     border: none;
     
 }
+.tour{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.tour-pic{
+    height: 100%;
+    width: 45%;
+}
+.tour-pic> img{
+    width: 100%;
+    height: 100%;
+}
+.tour-text{
+    width: 45%;
+}
 
 
 
@@ -143,6 +163,7 @@ span{
     .travel-nav{
         flex-direction: column;
         width: 287px;
+        gap: 0px;
     }
     .btwn-s{
         width: 200px;
@@ -153,5 +174,15 @@ span{
         padding-left: 16px;
 
     }
-    
+    .tour{
+        flex-wrap: wrap;
+        gap: 20px;
+
+    }
+    .tour-pic{
+        width: 100%;
+    }
+    .tour-text{
+        width: 100%;
+    }
 }
