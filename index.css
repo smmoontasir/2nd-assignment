@@ -1,12 +1,31 @@
 body{
+    margin: 0px;
+}
+header{
     margin: 3% 5%;
     font-family: Mulish;
     font-size: 64px;
     font-style: normal;
     line-height: normal;
     align-self: center;
- /*text style*/
- }
+ 
+}
+main{
+    margin: 3% 5%;
+    font-family: Mulish;
+    font-size: 64px;
+    font-style: normal;
+    line-height: normal;
+    align-self: center;
+ 
+}
+footer{
+    font-family: Mulish;
+    font-size: 64px;
+    font-style: normal;
+    line-height: normal
+    margin: 0px;
+}
  .text-style-1{
     color: #131318;
     font-size: 0.4em;
@@ -249,7 +268,72 @@ span{
     width: 100%;
 
 }
-
+/* news letter section */
+.news-letter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    margin-top: 100px;
+}
+.text{
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    width: 100%;
+    padding: 40px;
+}
+.pic{
+    background-image: url(./Images/Rectangle\ 8\ \(1\).png);
+    max-width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 16px;
+    margin: 0px;
+    
+}
+.text-2{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+input{
+    width: 100%;
+    border-radius: 3px;
+    background: rgba(19, 19, 24, 0.05);
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 0.18em;
+    font-style: normal;
+    font-weight: 400;
+    border: none;
+    text-align: start;
+    padding-top: 8px;
+    padding-left: 20px;
+    padding-bottom: 8px;
+}
+.text-2 > form > div >button{
+    width: 100%;
+    padding: 8px 0px 8px 20px;
+}
+.text-2 > form > .form-p{
+    gap: 16px;
+}
+footer{
+    background: rgba(19, 19, 24, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.foot-icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.foot-1 > .text{
+    border: none;
+}
 
 
 
@@ -309,10 +393,7 @@ span{
         width: 100%;
     
     }
-    .des-2-col-1{
-        
-        
-    }
+
     .aww{
         max-width: 100%;
         
@@ -329,6 +410,15 @@ span{
         flex-wrap: wrap;
         width: 100%;
         margin: 0px;
+    }
+    .news-letter{
+        flex-wrap: wrap;
+    }
+    .text{
+        width: 100%;
+    }
+    .pic{
+        max-width: 100%;
     }
     
    
