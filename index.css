@@ -333,6 +333,7 @@ input{
 .text-2 > form {
     gap: 3px;
 } 
+/* extra section */
 .xtra{
     display: flex;
     flex-direction: column;
@@ -345,6 +346,7 @@ input{
 .x-vid{
     width: 100%;
 }
+/* footer section */
 footer{
     background: rgba(19, 19, 24, 0.05);
     display: flex;
@@ -357,8 +359,9 @@ footer{
     align-items: center;
     justify-content: space-between;
 }
-.foot-1 > .text{
+.foot-1 > .text-foot{
     border: none;
+    text-align: center;
 }
 
 
@@ -421,7 +424,7 @@ footer{
     }
 
     .aww{
-        max-width: 100%;
+    width: 100%;
         
     }
     .choose-us{
